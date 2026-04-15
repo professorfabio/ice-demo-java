@@ -30,11 +30,11 @@ sudo apt-get update
 sudo apt-get install zeroc-ice-compilers
 ```
 
-### Get the ICE jar
+### Get the ICE jar (the ICE Java runtime)
 ```
 wget https://repo1.maven.org/maven2/com/zeroc/ice/3.7.11/ice-3.7.11.jar
 ```
-### Java-compile with (after ice-compiling the interface)
+### Compile the Client (after compiling the interface)
 ```
 javac -cp ".:ice-3.7.11.jar" Client.java Demo/*.java
 ```
