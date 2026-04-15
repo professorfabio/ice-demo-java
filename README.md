@@ -42,3 +42,4 @@ javac -cp ".:ice-3.7.11.jar" Client.java Demo/*.java
 ```
 java -cp ".:ice-3.7.11.jar" Client
 ```
+### Note: configure the IP address and port appropriately
