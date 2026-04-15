@@ -34,7 +34,7 @@ sudo apt-get install zeroc-ice-compilers
 ```
 wget https://repo1.maven.org/maven2/com/zeroc/ice/3.7.11/ice-3.7.11.jar
 ```
-### Compile the Client (after compiling the interface)
+### Compile the Client (after compiling the interface with slice2java)
 ```
 javac -cp ".:ice-3.7.11.jar" Client.java Demo/*.java
 ```
